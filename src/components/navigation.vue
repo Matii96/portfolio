@@ -15,24 +15,24 @@
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">ABOUT</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SKILLS</a>
+            <a class="nav-link" href="#skills">SKILLS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">EXPERIENCE</a>
+            <a class="nav-link" href="#experience">EXPERIENCE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">EDUCATION</a>
+            <a class="nav-link" href="#education">EDUCATION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">PORTFOLIO</a>
+            <a class="nav-link" href="#projects">PROJECTS</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#">CONTACT</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
@@ -52,8 +52,9 @@ export default class Navigation extends Vue {}
 }
 .navbar-brand,
 .nav-item {
-  font-size: 24px;
-  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-size: 22px;
+  font-family: 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 760px) {
