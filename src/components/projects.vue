@@ -11,7 +11,7 @@
               My engineering thesis. The aim of this project was to create chatbot that can move through conversation
               tree, defined in JSON file, with accepting user input. Example would be:
               <span style="color: red">Give me</span> <span style="color: green"> two</span>
-              <span style="color: blue">bottles of water</span>.
+              <span style="color: blue"> bottles of water</span>.
             </div>
             <div class="card-footer">Python, Tensorflow, REST API</div>
           </div>
@@ -35,7 +35,7 @@
               recogning objects in image in real-time with giving information anout it.Inspired by Marvel's Iron Man's
               helmet.
             </div>
-            <div class="card-footer">Python, Tensorflow, Node.js, Vue.js 2</div>
+            <div class="card-footer">Python, Tensorflow, Nest.js, Vue.js 2</div>
           </div>
         </div>
 

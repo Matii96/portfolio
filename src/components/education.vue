@@ -6,7 +6,7 @@
         <!-- start education section-->
         <div class="timeline mt-4">
           <div class="icon"></div>
-          <div class="date-content" style="margin-top: 28px">
+          <div class="date-content" style="margin-top: 5px">
             <div class="date-outer">
               <span class="date">
                 <span class="month">2 Years</span>
@@ -27,7 +27,7 @@
         <!-- start education section-->
         <div class="timeline mt-4">
           <div class="icon"></div>
-          <div class="date-content" style="margin-top: 28px">
+          <div class="date-content" style="margin-top: 5px">
             <div class="date-outer">
               <span class="date">
                 <span class="month">3,5 Years</span>

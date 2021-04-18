@@ -60,7 +60,7 @@ export default class About extends Vue {}
 }
 .me {
   width: 100%;
-  /* height: 400px; */
+  height: 100%;
   object-fit: cover;
 }
 .col-sm-4 {
