@@ -1,7 +1,7 @@
 <template>
   <section id="education">
     <div class="container pt-5 pb-5">
-      <center><h2 class="title">EDUCATION</h2></center>
+      <div class="text-center"><h2 class="title">EDUCATION</h2></div>
       <div class="main-timeline">
         <!-- start education section-->
         <div class="timeline mt-4">

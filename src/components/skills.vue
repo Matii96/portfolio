@@ -1,7 +1,7 @@
 <template>
   <section id="skills">
     <div class="container">
-      <center><h2 class="title">SKILLS</h2></center>
+      <div class="text-center"><h2 class="title">SKILLS</h2></div>
 
       <div class="row mt-5">
         <div class="col-xl-3 col-md-6 mt-3">

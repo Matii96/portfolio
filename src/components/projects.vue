@@ -1,7 +1,7 @@
 <template>
   <section id="projects">
     <div class="container pt-5 pb-5">
-      <center><h2 class="title">PROJECTS</h2></center>
+      <div class="text-center"><h2 class="title">PROJECTS</h2></div>
 
       <div class="row justify-content-center mt-5">
         <div class="col-xl-4 col-md-6 mt-3">

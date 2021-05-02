@@ -1,7 +1,7 @@
 <template>
   <section id="experience">
     <div class="container pt-5 pb-5">
-      <center><h2 class="title">EXPERIENCE</h2></center>
+      <div class="text-center"><h2 class="title">EXPERIENCE</h2></div>
       <div class="main-timeline">
         <!-- start experience section-->
         <div class="timeline mt-4">
