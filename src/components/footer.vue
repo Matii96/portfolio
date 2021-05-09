@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer id="contact">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-2 col-4 footer-link">
