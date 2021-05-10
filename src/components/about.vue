@@ -14,10 +14,10 @@
 
           <p>
             Hi, I’m Matthew. Nice to meet you 😉
-            <br />My passion is creating tool for other people to make their life easier, save time having fun at the
+            <br />My passion is creating tools for other people to make their life easier, save time having fun at the
             same time. I have experience with each stage of creating applications, from its concept, by the design and
             architecture planning to final execution and deployment. I run a blog on medium.com where I share my
-            thoughts on the IT world and contibute to open source.
+            thoughts on the IT world and contribute to open source.
           </p>
           <!-- <div class="container contact mt-4 mb-4">
             <div class="row align-items-center">
