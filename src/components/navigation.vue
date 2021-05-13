@@ -31,7 +31,7 @@
             <a class="nav-link" href="#projects">PROJECTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
+            <a class="nav-link" href="#contact">CONTACT & LINKS</a>
           </li>
         </ul>
       </div>

@@ -14,11 +14,14 @@
 
           <p>
             Hi, I’m Matthew. Nice to meet you 😉
-            <br />My passion is creating tools for other people to make their life easier, save time having fun at the
-            same time. I have experience with each stage of creating applications, from its concept, by the design and
-            architecture planning to final execution and deployment. I run a blog on medium.com where I share my
+            <br />My passion is creating tools for other people to make their life easier and save time, having fun at
+            the same time. I have experience with each stage of creating applications, from its concept, by the design
+            and architecture planning to final execution and deployment. I run a blog on medium.com where I share my
             thoughts on the IT world and contribute to open source.
           </p>
+
+          <p><a href="/resume.pdf" target="_blank" class="contact-link resume">My resume</a></p>
+
           <!-- <div class="container contact mt-4 mb-4">
             <div class="row align-items-center">
               <div class="col-xl-2 col-4">
@@ -112,5 +115,11 @@ export default class About extends Vue {}
     margin-right: auto;
     width: 70%;
   }
+}
+
+.resume {
+  text-decoration: underline;
+  font-size: 18px;
+  margin-left: 0;
 }
 </style>

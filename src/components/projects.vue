@@ -56,6 +56,19 @@
             <div class="card-footer">Node.js, Vue.js 2</div>
           </div>
         </div>
+
+        <div class="col-xl-4 col-md-6 mt-3">
+          <div class="card">
+            <h3 class="card-header">
+              <a href="https://landing.freshmail.io/71m7g2coyt/prometeusz-9" target="_blank">Prometeusz</a>
+            </h3>
+            <div class="card-body">
+              Robotic Process Automation system created for administrators. Powerd by Google's
+              <a href="https://developers.google.com/blockly" target="_blank">Blockly</a>.
+            </div>
+            <div class="card-footer">Node.js, Vue.js 2</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
