@@ -14,7 +14,7 @@ jobs:
         env:
           cache-name: cache-node-modules
         with:
-          path: ./node_modules
+          path: ./source/node_modules
           key: ${{ hashFiles('**/package-lock.json') }}
       - name: Install modules
         working-directory: source
@@ -37,7 +37,7 @@ jobs:
         env:
           cache-name: cache-node-modules
         with:
-          path: ./node_modules
+          path: ./source/node_modules
           key: ${{ hashFiles('**/package-lock.json') }}
       - name: Use Node.js
         uses: actions/setup-node@v2
