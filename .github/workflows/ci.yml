@@ -46,16 +46,17 @@ jobs:
       - name: Build app
         working-directory: source
         run: npm run build
-      - name: Clean old build
-        working-directory: build
-        run: |
-          find . -type f ! -name '.git' -delete
-          cp -RT ../source/dist .
 
       - name: Debug
         working-directory: build
-        run: ls -al
+        run: find . -type f ! -name '.git'
 
+      - name: Clean old build
+        working-directory: build
+        run: find . -type f ! -name '.git' -delete
+      - name: Update build
+        working-directory: build
+        run: cp -RT ../source/dist .
       - name: Publish app
         working-directory: build
         run: |
