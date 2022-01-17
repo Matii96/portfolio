@@ -46,22 +46,17 @@ jobs:
       - name: Build app
         working-directory: source
         run: npm run build
-
-      - name: Debug
-        working-directory: build
-        run: find . -type f ! -name '.git'
-
       - name: Clean old build
         working-directory: build
-        run: find . -path ./.git -prune -o -delete
+        run: find . ! -name '.git' -delete
       - name: Update build
         working-directory: build
         run: cp -RT ../source/dist .
       - name: Publish app
         working-directory: build
         run: |
-          git config --global user.name $USERNAME
-          git config --global user.email $USERNAME@users.noreply.github.com
+          git config --local user.name $USERNAME
+          git config --local user.email $USERNAME@users.noreply.github.com
           git add -A
           git commit -m "Update"
           git push https://$USERNAME:$REPO_KEY@github.com/myorg/documentation.git
