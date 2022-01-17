@@ -61,11 +61,11 @@ jobs:
           git config --local user.email $BOT_NAME@users.noreply.github.com
       - name: Publish app
         working-directory: build
+        continue-on-error: true
         run: |
           git add -A
           git commit -m "Update"
-          # git push https://$BOT_NAME:$secrets.REPO_TOKEN@github.com/$BUILD_REPO.git
       - if: success()
-        run: echo Success
+        run: git push
       - if: failure()
         run: echo "Nothing to update"
