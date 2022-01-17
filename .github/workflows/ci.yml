@@ -65,7 +65,4 @@ jobs:
         run: |
           git add -A
           git commit -m "Update"
-      - if: success()
-        run: git push
-      - if: failure()
-        run: echo "Nothing to update"
+          git push
