@@ -53,7 +53,7 @@ jobs:
 
       - name: Clean old build
         working-directory: build
-        run: find . -type f ! -name '.git' -delete
+        run: find . -path ./.git -prune -o -delete
       - name: Update build
         working-directory: build
         run: cp -RT ../source/dist .
