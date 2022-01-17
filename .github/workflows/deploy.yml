@@ -2,6 +2,11 @@ name: Node.js CI
 
 on: [push]
 
+# on:
+#   push:
+#     branches:
+#       - master
+
 jobs:
   install-dependencies:
     runs-on: ubuntu-18.04
@@ -59,10 +64,12 @@ jobs:
         run: |
           git config --local user.name $BOT_NAME
           git config --local user.email $BOT_NAME@users.noreply.github.com
-      - name: Publish app
+      - name: Commit changes
         working-directory: build
-        continue-on-error: true
+        continue-on-error:
         run: |
           git add -A
           git commit -m "Update"
-          git push
+      - name: Push changes
+        working-directory: build
+        run: git push
