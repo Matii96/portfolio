@@ -65,7 +65,7 @@ jobs:
           git add -A
           git commit -m "Update"
           # git push https://$BOT_NAME:$secrets.REPO_TOKEN@github.com/$BUILD_REPO.git
-        - if: success()
-          run: echo Success
-        - if: failure()
-          run: echo "Nothing to update"
+      - if: success()
+        run: echo Success
+      - if: failure()
+        run: echo "Nothing to update"
