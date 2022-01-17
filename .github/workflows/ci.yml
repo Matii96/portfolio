@@ -23,6 +23,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: install-dependencies
+    env:
+      BOT_NAME: github-actions[bot]
+      BUILD_REPO: Matii96/Matii96.github.io
     steps:
       - uses: actions/checkout@v2
         with:
@@ -69,6 +72,3 @@ jobs:
           git add -A
           git commit -m "Update"
           # git push https://$BOT_NAME:${{secrets.REPO_TOKEN}}@github.com/$BUILD_REPO.git
-      env:
-        BOT_NAME: github-actions[bot]
-        BUILD_REPO: Matii96/Matii96.github.io
