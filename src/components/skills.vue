@@ -23,7 +23,7 @@
               <h5 class="card-title text-center mb-4">Backend</h5>
               <ul class="list-unstyled text-secondary">
                 <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> Node.js / Nest.js</li>
-                <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> PHP / Symfony</li>
+                <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> C# / .NET</li>
                 <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> PostgresSQL / MySQL</li>
                 <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> MongoDB</li>
                 <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> Python / Tensorflow</li>

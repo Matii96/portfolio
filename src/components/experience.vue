@@ -9,6 +9,29 @@
           <div class="date-content" style="margin-top: 28px">
             <div class="date-outer">
               <span class="date">
+                <span class="month">1 Year</span>
+                <span class="year">2021</span>
+              </span>
+            </div>
+          </div>
+          <div class="timeline-content">
+            <h5 class="timeline-title"><a href="https://gopuff.com" target="_blank">Netguru</a></h5>
+            <h6 class="timeline-subtitle">Software Architect, Back-end developer</h6>
+            <p class="description">
+              In Netguru I had an opportunity to cooperate with
+              <a href="https://gopuff.com" target="_blank">Gopuff</a> in adjusting architecture to rapid growth of the
+              company and software demands.
+            </p>
+          </div>
+        </div>
+        <!-- end experience section-->
+
+        <!-- start experience section-->
+        <div class="timeline mt-4">
+          <div class="icon"></div>
+          <div class="date-content" style="margin-top: 28px">
+            <div class="date-outer">
+              <span class="date">
                 <span class="month">3 Years</span>
                 <span class="year">2018</span>
               </span>

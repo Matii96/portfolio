@@ -69,6 +69,19 @@
             <div class="card-footer">Node.js, Vue.js 2</div>
           </div>
         </div>
+
+        <div class="col-xl-4 col-md-6 mt-3">
+          <div class="card">
+            <h3 class="card-header">
+              <a href="https://github.com/Matii96/rental-system" target="_blank">Rental system</a>
+            </h3>
+            <div class="card-body">
+              Fully functional comprehensive software for rentals like library.<br />Designed as a case-study of complex
+              distributed systems, the challanges arising from them as well as solutions.
+            </div>
+            <div class="card-footer">Nest.js, Graphql</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
