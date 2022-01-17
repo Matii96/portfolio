@@ -48,7 +48,7 @@ jobs:
         run: npm run build
       - name: Clean old build
         working-directory: build
-        run: find . ! -path ".git/**" -delete
+        run: find . ! -path "./.git/**" -delete
       - name: Update build
         working-directory: build
         run: cp -RT ../source/dist .
