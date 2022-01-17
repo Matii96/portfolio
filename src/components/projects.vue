@@ -79,7 +79,7 @@
               Fully functional comprehensive software for rentals like library.<br />Designed as a case-study of complex
               distributed systems, the challanges arising from them as well as solutions.
             </div>
-            <div class="card-footer">Nest.js, Graphql</div>
+            <div class="card-footer">Nx, Nest.js, Graphql</div>
           </div>
         </div>
       </div>

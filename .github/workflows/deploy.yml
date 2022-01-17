@@ -1,11 +1,9 @@
 name: Node.js CI
 
-on: [push]
-
-# on:
-#   push:
-#     branches:
-#       - master
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   install-dependencies:
@@ -37,9 +35,9 @@ jobs:
           path: source
       - uses: actions/checkout@v2
         with:
-          repository: ${{env.BUILD_REPO}}
+          repository: ${{ env.BUILD_REPO }}
           path: build
-          token: ${{secrets.REPO_TOKEN}}
+          token: ${{ secrets.REPO_TOKEN }}
       - name: Load node modules
         uses: actions/cache@v2
         env:
@@ -69,7 +67,7 @@ jobs:
         continue-on-error: true
         run: |
           git add -A
-          git commit -m "Update"
+          git commit -m "${{ github.event.head_commit.message }}"
       - name: Push changes
         working-directory: build
         run: git push
