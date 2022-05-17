@@ -26,7 +26,6 @@
                 <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> C# / .NET</li>
                 <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> PostgresSQL / MySQL</li>
                 <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> MongoDB</li>
-                <li class="mb-2"><i class="fa fa-check mr-1 text-primary"></i> Python / Tensorflow</li>
               </ul>
             </div>
           </div>
